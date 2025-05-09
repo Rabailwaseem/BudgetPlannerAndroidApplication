@@ -1,72 +1,66 @@
-# Budget Planner App
+# 🧾 Budget Planner App
 
-# **
+**Budget Planner App** is a powerful and user-friendly Android application built with **Kotlin** using **Android Studio**. It helps users manage their personal finances by tracking **budgets**, **income**, **expenses**, **accounts**, **payees**, and **payers** — all in one place.
 
-Budget Planner App is a comprehensive financial management application developed using Kotlin in Android Studio. This app is designed to help users efficiently manage their finances by providing robust features for tracking and analyzing various aspects of their budget.
+---
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf61qvyMC2LGQoyq4Iy95WKgkVeurmWrMiU1viM9RXE0GgtzjQTcny76nvA_3cWRzUjTckWDdz4M6ucNlLjdZSO0X9w1yCONAC1ZmA5MA84CoyNwXGgBV7BbOsEeDN-ByisRtriMGr-FNHhuVapERSqAZHP?key=aAKcNVFDbcTfvc3qeBZlQQ)
+## 📱 Screenshots
 
-  
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeteM09YKp7j4zSJbV6-gQ5SVuzp_6Sa9-cNMgRO5WynVXDLoN-lJwWbFIwWQHyUDu1UgQsBjTZYM2rnx-BMtopsG2RyFAFGtur2obDTF1IjX1F8lJwJ5ng3YpMfozsCjyg0eNSjs3P87HiH0UoZx4ZOQRa?key=aAKcNVFDbcTfvc3qeBZlQQ)  
-**
+### ✅ Homepage (Budget Overview)
 
-## Features
+Shows budgets with start/end dates, income, expenses, and a visual progress bar.
+![Homepage](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf61qvyMC2LGQoyq4Iy95WKgkVeurmWrMiU1viM9RXE0GgtzjQTcny76nvA_3cWRzUjTckWDdz4M6ucNlLjdZSO0X9w1yCONAC1ZmA5MA84CoyNwXGgBV7BbOsEeDN-ByisRtriMGr-FNHhuVapERSqAZHP?key=aAKcNVFDbcTfvc3qeBZlQQ)
 
-# **
+---
 
--   Payee Management: Easily add and manage payees.
-    
--   Payers Tracking: Keep track of different payers and their contributions.
-    
--   Accounts Management: Maintain and manage multiple accounts.
-    
--   Budgets Setup: Create and manage budgets for different categories.
-    
--   Expense Tracking: Record and monitor expenses to stay within budget.
-    
--   Income Tracking: Keep track of all sources of income.
-    
--   Analytics: View detailed analytics and insights on budgets, expenses, and income.
-    
--   Comprehensive Calculations: Automatic calculations for budget tracking and financial summaries.
-    
+### 💸 New Transaction Page
 
--   **Local Database Storage**: All data is saved locally on the device for quick access.
--   **Backup and Restore**: Users can back up their data via email, saving it on the server and retrieving it when needed.
+Add income or expense transactions with date, category, payer/payee, amount, and notes.
+![Transaction Page](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeteM09YKp7j4zSJbMC7cfBa3z40jzAw2Ei11sowh4xAEWYh6C1OlEyaSjs6szsXCCQeFtv2E_-VKHXggh_aGoK4DHyESf8kE-c6piUgWz6kq20kmT1oAYRrcNViEsUxtXJceF9hkoR-WUHzmMJPJ7A4n68?key=aAKcNVFDbcTfvc3qeBZlQQ)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcTaOVuvspV9q5uUGeKt2vbnWNFF0XeyWilQalgzu7_WHNqo5vrem9X92JsJrcs4aB5SS4E6qlcqAqBCc2_X_2zddm0upXXLzwZRsOrpjZ-nc1u9BDbVQgIujShsTJ5yMWX_YGVNly8nza2Ee_NGHNGMjVQ?key=aAKcNVFDbcTfvc3qeBZlQQ)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7vJpN90wbty7o6h4pl-bx7VjVnRiU79habE_VqOY0b2RyeGq_ckvDqx6pk3Akf-llBRPfOZykAIeqR00kqryACotuK8xh1bGf-dSskD4M86BO0deKIor8zSr3Zu7o0M-C3ouvTG_MSeVUzfih7nDWpw?key=aAKcNVFDbcTfvc3qeBZlQQ)
+---
 
-  
-  
-  
-  
-**
+### 🧮 Built-in Calculator Dialog
 
-## Technologies Used
+Enter transaction amounts directly using a built-in calculator.
+![Calculator](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchRClqXStIWuLPmAYxjAJkUPGi_dZ6AhrUPTq-7Etc0KyEvC-UZ22zLuMUV_NZ2qufWyyiC1j2VVd6_X3qBviylZnW7OluzQ5ID7LMPfA8xk_gLeQYEX9XBrEsF5sBFZ3Za-3ZPYCC6zHdKZBQYg4UPPE?key=aAKcNVFDbcTfvc3qeBZlQQ)
 
-# **
+---
 
--   Kotlin: For app development.
-    
--   Android Studio: IDE for Android development.
-    
--   XML: For designing the app's layout and user interface.
-    
+### 💼 Account Management
 
-**
+Manage multiple accounts, including default and custom icons, with dynamic lists.
+![Account List](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe8JtCDX8Z9rjFzbn0IEx6VBrjSC0oVoZBpdptvQOgUCN4RbFKfMA1wRKn8tUrcNR1vE52KMM-y4Ku6_4L8AVll_bxROhPKCRkkmOHwwacOmnQ_MoPq3pckG1cNkZ2Q1ojmjFphY4FVQhxQF3shTkTZD98?key=aAKcNVFDbcTfvc3qeBZlQQ)
 
-## Usage
+---
 
-# 
+### 👤 Add Payees and Payers
 
-1.  Setup Accounts: Start by adding your accounts.
-    
-2.  Add Payees and Payers: Manage your financial interactions.
-    
-3.  Create Budgets: Define your spending limits.
-    
-4.  Track Expenses and Income: Input your transactions and monitor your financial flow.
-    
-5.  Analyze: Use the analytics feature to gain insights into your financial status.
-    
-6.  **Backup and Restore**: Use the backup feature to save your data via email and restore it later if needed.
+Easily input and track payees and payers with optional details like debt, address, phone, and due dates.
+![Payee Page](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDNqQUJjH9xtMRcRLRKfdTctsoGvLscuQ-EGe1ML2vFfVno2qH-cvGQeAg4y9sdJuW_yX_q0jYNBzXNu-EtKHsk0ZskGNRDzBeJHh3cK_YcY6gFGmMyBPZYzfnHq0XEEHgbmKvZCmEStrn-l7knXkRMVg?key=aAKcNVFDbcTfvc3qeBZlQQ)
+
+---
+
+## ⚙️ Features
+
+- 📊 View and manage multiple **budgets**
+- 💸 Record **income** and **expense** transactions
+- 🧮 Use a **built-in calculator** for accuracy
+- 💼 Manage **accounts**, **payees**, and **payers**
+- 📅 Select **dates** with a calendar picker
+- ⭐ Mark default accounts
+- 📈 Visual progress bars for budget usage
+- ✅ Dynamic and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Kotlin
+- **IDE**: Android Studio
+- **Database**: SQLite (Room)
+- **UI**: XML Layouts, RecyclerViews, Dialogs
+- **Architecture**: MVVM
+
+---
+
