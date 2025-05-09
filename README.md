@@ -4,9 +4,8 @@
 
 ---
 
-## 📱 Screenshots
 
-### ✅ Homepage (Budget Overview)
+### ✅ Homepage 
 
 Shows budgets with start/end dates, income, expenses, and a visual progress bar.
 
